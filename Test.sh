@@ -1,7 +1,7 @@
 #!bin/bash
 
 Me=SUDHAKAR
-echo "Testet File"
+echo "Testet File :  $Me"
 
 NUM1=$1
 NUM2=$2
