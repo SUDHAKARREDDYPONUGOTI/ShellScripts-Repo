@@ -1,20 +1,9 @@
-echo "Please Enter User name: "
+#!/bin/bash 
 
-read USERNAME
+NUM=10
 
-echo "Please enter your Password:: "
-
-read PASSWORD
-echo "Username is: $USERNAME, Password is: $PASSWORD" 
-
-
-
-
-echo "Please enter your username:: "
-
-read -s USERNAME #the value entered above will be automatically atteched to USERNAME variable
-
-echo "Please enter your Password:: "
-read -s PASSWORD
-
-echo "Username is: $USERNAME, Password is: $PASSWORD" # I am priting just for validation, you should not print username and passwords 
+if [ $NUM -gt 100]
+then
+echo "THIS is Moved to Next level"
+else
+echo "$NUM is not Greater Than Value"
