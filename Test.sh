@@ -8,3 +8,11 @@ then
 else
     echo "$NUM is not Greater Than Value"
 fi
+
+FRIENDS=("SUDHAKAR" "JANU" "VENKY" "RAVI")
+
+echo "First Friend is ${FRIENDS[0]}"
+
+echo "First Friend is ${FRIENDS[2]}"
+
+echo "First Friend is ${FRIENDS[@]}"
