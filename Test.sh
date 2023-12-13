@@ -1,8 +1,8 @@
 #!/bin/bash 
 
-NUM=10
+NUM=$1
 
-if [ $NUM -gt 100]
+if [ $NUM -gt 100 ]
 then
 echo "THIS is Moved to Next level"
 else
