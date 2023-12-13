@@ -3,4 +3,9 @@
 Me=SUDHAKAR
 echo "Testet File"
 
-echo "$Me"
+NUM1=$1
+NUM2=$2
+
+echo (($NUM1+$NUM2))
+
+
