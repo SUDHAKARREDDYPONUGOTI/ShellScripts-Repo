@@ -1,13 +1,20 @@
-#!bin/bash
+echo "Please Enter User name: "
 
-Me=SUDHAKAR
-echo "Testet File :  $Me"
+read USERNAME
 
-NUM1=$1
-NUM2=$2
+echo "Please enter your Password:: "
 
-SUM=$(($NUM1+$NUM2))
-
-echo "Result is : $SUM"
+read PASSWORD
+echo "Username is: $USERNAME, Password is: $PASSWORD" 
 
 
+
+
+echo "Please enter your username:: "
+
+read -s USERNAME #the value entered above will be automatically atteched to USERNAME variable
+
+echo "Please enter your Password:: "
+read -s PASSWORD
+
+echo "Username is: $USERNAME, Password is: $PASSWORD" # I am priting just for validation, you should not print username and passwords 
