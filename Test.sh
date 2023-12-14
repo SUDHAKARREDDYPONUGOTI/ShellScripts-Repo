@@ -15,4 +15,4 @@ echo "First Friend is ${FRIENDS[0]}"
 
 echo "First Friend is ${FRIENDS[2]}"
 
-echo "First Friend is ${FRIENDS[@]}"
+echo "First Friend is ${FRIENDS[@]}" | rev
