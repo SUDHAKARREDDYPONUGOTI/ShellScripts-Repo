@@ -4,6 +4,10 @@ NUM=$1
 
 DATE=$(date)
 
+R="\e[31m]"
+G="\e[32m]"
+Y="\e[0m]"
+
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
 echo "Scrit exection time : $DATE"
